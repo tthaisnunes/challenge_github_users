@@ -1,0 +1,18 @@
+<div class="content">
+  <h1>Exercise:</h1>
+  <p>Given a gitHub username, write a script to find the unique languages used across the user's
+    open source
+    repositories,
+    along with a count of how many times each language occurs.</p>
+
+  <form (submit)="getUserDetails(username)" class="form">
+    <input type="text" name="username" [(ngModel)]="username" class="input__form">
+    <button type="submit" class="form__button">get user</button>
+  </form>
+
+  <p class="content__count">Repos count: <strong>{{reposCount}}</strong></p>
+
+  <div class="content__list">
+    <p *ngFor="let item of languageList">{{item.language}}: {{item.occurrence}},</p>
+  </div>
+</div>
