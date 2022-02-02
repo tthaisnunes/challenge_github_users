@@ -1,3 +1,11 @@
+# Exercise
+
+Given a gitHub username, write a script to find the unique languages used across the user's open source repositories, along with a count of how many times each language occurs.
+i.e:
+![image](https://user-images.githubusercontent.com/6308411/152255188-d15af98c-5b6a-4407-becd-dcaae760eb24.png)
+
+
+
 # GitReposApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
